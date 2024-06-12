@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva com Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Bem-vindo ao Projeto Responsivo</h1>
+        <p>Explore os elementos e veja como se comportam em diferentes tamanhos de tela</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+        <div class="row">
+            <!-- Coluna da Esquerda -->
+            <div class="col-lg-8">
+                <!-- Cards -->
+                <div class="card mb-4">
+                    <div class="card-header">Card Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">Este é um exemplo de card. Você pode usá-lo para mostrar informações importantes.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- Tabela -->
+                <h2>Tabela Responsiva</h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nome</th>
+                                <th>Idade</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>João</td>
+                                <td>25</td>
+                                <td>joao@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Maria</td>
+                                <td>30</td>
+                                <td>maria@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Pedro</td>
+                                <td>35</td>
+                                <td>pedro@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Coluna da Direita -->
+            <div class="col-lg-4">
+                <!-- Formulário -->
+                <h2>Formulário</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Idade</label>
+                        <input type="number" class="form-control" id="age" placeholder="Digite sua idade">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Projeto Responsivo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

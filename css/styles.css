@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background: rgba(0, 123, 255, 0.7);
+}
+
+/* Estilo para o rodapé */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Estilo para os cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a tabela */
+.table-responsive {
+    margin-bottom: 20px;
+}
